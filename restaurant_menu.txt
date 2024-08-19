@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ciancé</title>
+	<style>
+		h3 {text-decoration: underline;}
+		hr {width: 95%; margin: auto;}
+	</style>
+  </head>
+  <body>
+	<header>
+		<img id="header-img" width="40" src="https://png.pngtree.com/png-vector/20230816/ourmid/pngtree-hand-drawn-illustration-vector-png-image_6999787.png" alt="Simple abstract logo of a crab."/>
+		<h1>Ciancé</h1>
+		<nav>
+			<ul>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#order-form">Order Form</a></li>
+			</ul>
+		</nav>
+	</header>
+	<hr/>
+	<main>
+		<section id="menu">
+			<h2>Menu</h2>
+			<article>
+				<img width="250" src="https://www.thejuicycrab.com/hubfs/combo-2.webp" alt="Seafood boil with crawfish, mussels, corn, and a potato."/>
+				<h3>Mussels/Crawfish Combo</h3>
+				<p>
+					1 LB Crawfish<br>
+					0.5 LB Black Mussels<br>
+					1 Corn<br>
+					1 Potato<br>
+					<i>$26.00</i>
+				</p>
+			</article>
+			<br>
+			<article>
+				<img width="250" src="https://www.thejuicycrab.com/hubfs/combo-4.webp" alt="Seafood boil with crawfish, shrimp, mussels, corn and a potato."/>
+				<h3>Crawfish/Shrimp/Mussels Combo</h3>
+				<p>
+					0.5 LB Crawfish<br>
+					0.5 LB Shrimp (NO HEAD)<br>
+					0.5 LB Black Mussels<br>
+					1 Corn<br>
+					1 Potato<br>
+					<i>$29.90</i>
+				</p>
+			</article>
+			<br>
+			<article>
+				<img width="250" src="https://www.thejuicycrab.com/hubfs/Combo%207%20Fresh%20Catch.png" alt="Seafood boil with snow crab, shrimp, corn, and a potato."/>
+				<h3>Snow Crab/Shrimp Combo</h3>
+				<p>
+					1 Cluster Snow Crab<br>
+					0.5 LB Shrimp (NO HEAD)<br>
+					1 Corn<br>
+					1 Potato<br>
+					<i>$39.00</i>
+				</p>
+			</article>
+		</section>
+		<hr/>
+		<section id="order-form">
+			<h2>Place Your Order</h2>
+			<form>
+				<label>Mussels/Crawfish Combo <i>$26.00</i> <input type="number" min="0" required></label><br>
+				<label>Crawfish/Shrimp/Mussels Combo <i>$29.90</i> <input type="number" min="0" required></label><br>
+				<label>Snow Crab/Shrimp Combo <i>$39.00</i> <input type="number" min="0" required></label><br>
+				<br>
+				Seasoning:
+				<br>
+				<label><input type="radio" name="seasoning">Garlic Butter</label><br>
+				<label><input type="radio" name="seasoning">Cajun</label><br>
+				<label><input type="radio" name="seasoning">Lemon Pepper</label><br>
+				<label><input type="radio" name="seasoning">Ciancé Special</label><br>
+				<label><input type="radio" name="seasoning" required>No Seasoning</label><br>
+				<br>
+				Spice Level:
+				<br>
+				<label><input type="radio" name="spice">Mild</label><br>
+				<label><input type="radio" name="spice">Medium</label><br>
+				<label><input type="radio" name="spice">Hot</label><br>
+				<label><input type="radio" name="spice" required>No Spice</label><br>
+				<br>
+				Side:
+				<br>
+				<label><input type="radio" name="side">Coleslaw</label><br>
+				<label><input type="radio" name="side">Cajun Fries</label><br>
+				<label><input type="radio" name="side">Steamed Rice</label><br>
+				<label><input type="radio" name="side" required>None</label><br>
+				<br>
+				Add-Ons:
+				<br>
+				<label><input type="checkbox">3x Corn <i>+$5.20</i></label><br>
+				<label><input type="checkbox">3x Potato <i>+$5.20</i></label><br>
+				<label><input type="checkbox">3x Boiled Eggs <i>+$6.50</i></label><br>
+				<label><input type="checkbox">0.5 LB Sausage <i>+$6.50</i></label><br>
+				<br>
+				Special Requests/Instructions:
+				<br>
+				<textarea rows="7" cols="30" maxlength="250"></textarea><br>
+				<input type="submit" value="Go To Checkout">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Made with love by QueenCee48</p>
+	</footer>
+  </body>
+</html>
